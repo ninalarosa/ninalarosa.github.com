@@ -1,0 +1,93 @@
+@import url(http://fonts.googleapis.com/css?family=Source+Sans+Pro:400,600,700|Merriweather:300,900);
+
+html.backgroundsize {
+  background: url(/images/moutains.jpg) no-repeat center center fixed;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+}
+body {
+  font: 14px/1.5 'Source Sans Pro', san-serif;
+  background: transparent;
+  color: #222;
+  padding: 0;
+  margin: 0;
+}
+
+/* DEFAULTS */
+a {
+  color: #222;
+  font-weight: 600;
+  text-decoration: none;
+}
+ul {
+  margin: 0;
+  padding: 0;
+}
+li {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+h1, h2, h3, h4, h5, h6 {
+  font-family: 'Merriweather', serif;
+  margin: 0;
+}
+h1 {
+  font-size: 24px;
+  padding: 1em 0;
+}
+h2 {
+  font-size: 16px;
+  font-weight: 900;
+  letter-spacing: -1px;
+  padding: 0.5em 1em;
+}
+h2 .light {
+  font-weight: 300;
+}
+p {
+  margin: 0;
+  padding: 0;
+}
+.alpha75 {
+	/* Fallback for web browsers that doesn't support RGBa */
+	background: rgb(255, 255, 255);
+	/* RGBa with 0.6 opacity */
+	background: rgba(255, 255, 255, 0.75);
+	/* For IE 5.5 - 7*/
+	filter:progid:DXImageTransform.Microsoft.gradient(startColorstr=#bfffffff, endColorstr=#bfffffff);
+	/* For IE 8*/
+	-ms-filter: "progid:DXImageTransform.Microsoft.gradient(startColorstr=#bfffffff, endColorstr=#bfffffff)";
+}
+
+/* REGIONS */
+#main {
+  width: 960px;
+  margin: 0 auto;
+}
+header {
+  -webkit-border-radius: 0 0 10px 10px;
+  border-radius: 0 0 10px 10px;
+}
+nav {
+  float: right;
+  margin: 0.7em 0.25em;
+}
+nav li {
+  float: left;
+}
+nav a {
+  padding: 0.5em 1em;
+}
+section {
+  margin: 3em 0 0;
+
+  -webkit-border-radius: 10px;
+  border-radius: 10px;
+
+  padding: 0.5em 1em;
+}
+
+
