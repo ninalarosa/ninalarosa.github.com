@@ -1,2 +1,2 @@
 auto: true
-exclude: [CNAME]
+exclude: [CNAME, .rvmrc]
